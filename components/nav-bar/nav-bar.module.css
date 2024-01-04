@@ -1,0 +1,13 @@
+.navBarWrapper {
+    @apply w-full h-[60px] flex items-center justify-between bg-secondary-content px-16;
+}
+
+.navBarSubWrapper {
+    @apply w-auto h-full flex justify-end items-center gap-6;
+
+    max-width: 1536px;
+}
+
+.navBarLink {
+    @apply link link-hover text-sm font-semibold;
+}

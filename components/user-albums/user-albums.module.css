@@ -1,0 +1,27 @@
+.userAlbumsDialog {
+    @apply modal modal-open w-full;
+}
+
+.userAlbumsModal {
+    @apply modal-box max-w-full flex-col;
+}
+
+.userAlbumsTitle {
+    @apply font-bold text-lg;
+}
+
+.userAlbumsSubTitle {
+    @apply font-semibold py-4 text-lg;
+}
+
+.userAlbumsModalAction {
+    @apply modal-action w-full;
+}
+
+.userAlbumsTable {
+    @apply w-full table table-zebra;
+}
+
+.userAlbumsBtnWrapper {
+    @apply w-full flex justify-end items-center mt-4;
+}

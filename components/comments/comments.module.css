@@ -1,0 +1,19 @@
+.commentsWrapper {
+    @apply w-full min-h-[calc(100vh-60px)] flex flex-col items-center justify-start px-8 py-8 bg-neutral;
+}
+
+.commentsContainer {
+    @apply card w-[96%] shadow-xl flex items-center justify-center flex-col gap-8 p-8 bg-neutral-content;
+}
+
+.commentsHeader {
+    @apply w-full text-2xl font-bold;
+}
+
+.commentsTable {
+    @apply w-full table;
+}
+
+.commentsLink {
+    @apply link link-primary;
+}

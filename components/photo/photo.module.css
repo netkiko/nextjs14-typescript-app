@@ -1,0 +1,23 @@
+.photoWrapper {
+    @apply w-full min-h-[calc(100vh-60px)] flex flex-col items-center justify-start p-8 bg-neutral;
+}
+
+.photoContainer {
+    @apply card w-[50%] shadow-xl flex items-start justify-center flex-col gap-4 p-8 bg-neutral-content;
+}
+
+.photoTitle {
+    @apply text-lg font-semibold;
+}
+
+.photoItem {
+    @apply w-full grid grid-cols-[14%_86%] items-center gap-8;
+}
+
+.photoLabel {
+    @apply font-semibold;
+}
+
+.photoValue {
+    @apply text-lg font-semibold;
+}

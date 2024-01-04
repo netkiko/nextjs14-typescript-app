@@ -1,0 +1,19 @@
+.albumsWrapper {
+    @apply w-full min-h-[calc(100vh-60px)] flex flex-col items-center justify-start px-8 py-8 bg-neutral;
+}
+
+.albumsContainer {
+    @apply card w-[96%] bg-base-100 shadow-xl flex items-center justify-center flex-col gap-8 p-8 bg-neutral-content;
+}
+
+.albumsHeader {
+    @apply w-full text-2xl font-bold;
+}
+
+.albumsTable {
+    @apply w-full table;
+}
+
+.albumsLink {
+    @apply link link-primary;
+}

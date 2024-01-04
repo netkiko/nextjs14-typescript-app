@@ -1,0 +1,27 @@
+.postCommentsDialog {
+    @apply modal modal-open w-full;
+}
+
+.postCommentsModal {
+    @apply modal-box max-w-full flex-col;
+}
+
+.postCommentsTitle {
+    @apply font-bold text-lg;
+}
+
+.postCommentsSubTitle {
+    @apply font-semibold py-4 text-lg;
+}
+
+.postCommentsModalAction {
+    @apply modal-action w-full;
+}
+
+.postCommentsTable {
+    @apply w-full table table-zebra;
+}
+
+.postCommentsBtnWrapper {
+    @apply w-full flex justify-end items-center mt-4;
+}

@@ -1,0 +1,27 @@
+.userPostsDialog {
+    @apply modal modal-open w-full;
+}
+
+.userPostsModal {
+    @apply modal-box max-w-full flex-col;
+}
+
+.userPostsTitle {
+    @apply font-bold text-lg;
+}
+
+.userPostsSubTitle {
+    @apply font-semibold py-4 text-lg;
+}
+
+.userPostsModalAction {
+    @apply modal-action w-full;
+}
+
+.userPostsTable {
+    @apply w-full table table-zebra;
+}
+
+.userPostsBtnWrapper {
+    @apply w-full flex justify-end items-center mt-4;
+}

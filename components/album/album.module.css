@@ -1,0 +1,27 @@
+.albumWrapper {
+    @apply w-full min-h-[calc(100vh-60px)] flex flex-col items-center justify-start px-8 py-8 bg-neutral;
+}
+
+.albumForm {
+    @apply card w-[60%] bg-base-100 shadow-xl flex items-center justify-center flex-col gap-8 p-8 bg-neutral-content;
+}
+
+.albumItem {
+    @apply w-full grid grid-cols-[12%_88%] items-center gap-8;
+}
+
+.albumInput {
+    @apply input input-bordered input-primary w-full max-w-2xl;
+}
+
+.albumTextarea {
+    @apply textarea textarea-primary w-full max-w-2xl;
+}
+
+.albumLabel {
+    @apply font-semibold;
+}
+
+.albumValue {
+    @apply text-lg font-bold;
+}

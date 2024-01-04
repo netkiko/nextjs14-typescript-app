@@ -1,0 +1,27 @@
+.postWrapper {
+    @apply w-full min-h-[calc(100vh-60px)] flex flex-col items-center justify-start px-8 py-8 bg-neutral;
+}
+
+.postForm {
+    @apply card w-[60%] shadow-xl flex items-center justify-center flex-col gap-8 p-16 bg-neutral-content;
+}
+
+.postItem {
+    @apply w-full grid grid-cols-[10%_90%] items-center gap-8;
+}
+
+.postLabel {
+    @apply font-semibold;
+}
+
+.postValue {
+    @apply text-lg font-bold;
+}
+
+.postInput {
+    @apply input input-bordered input-primary w-full max-w-2xl;
+}
+
+.postTextarea {
+    @apply textarea textarea-primary w-full max-w-2xl;
+}

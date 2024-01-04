@@ -1,0 +1,31 @@
+.albumPhotosDialog {
+    @apply modal modal-open w-full;
+}
+
+.albumPhotosModal {
+    @apply modal-box max-w-full flex-col;
+}
+
+.albumPhotosTitle {
+    @apply font-bold text-lg text-left;
+}
+
+.albumPhotosSubTitle {
+    @apply font-semibold py-4 text-lg text-left;
+}
+
+.albumPhotosModalAction {
+    @apply modal-action w-full;
+}
+
+.albumPhotosTable {
+    @apply w-full table table-zebra;
+}
+
+.albumPhotosThumbnail {
+    @apply flex items-center justify-center;
+}
+
+.albumPhotosBtnWrapper {
+    @apply w-full flex justify-end items-center mt-4;
+}

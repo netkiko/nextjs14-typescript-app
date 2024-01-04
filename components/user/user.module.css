@@ -1,0 +1,27 @@
+.userWrapper {
+    @apply w-full flex flex-col justify-center items-center  px-8 py-8 bg-neutral;
+}
+
+.userForm {
+    @apply card w-[65%] shadow-xl flex justify-center items-center flex-col gap-8 p-8 bg-neutral-content;
+}
+
+.userItem {
+    @apply w-full grid grid-cols-[16%_84%] items-center gap-8;
+}
+
+.userInput {
+    @apply input input-bordered input-primary w-full max-w-2xl;
+}
+
+.userTextarea {
+    @apply textarea textarea-primary w-full max-w-2xl;
+}
+
+.userLabel {
+    @apply font-semibold;
+}
+
+.userId {
+    @apply text-lg font-bold;
+}

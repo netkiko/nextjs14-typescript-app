@@ -1,0 +1,19 @@
+.postsWrapper {
+    @apply w-full flex flex-col items-center justify-center px-8 py-8 bg-neutral;
+}
+
+.postsContainer {
+    @apply card w-[96%] shadow-xl flex items-center justify-center flex-col gap-8 p-8 bg-neutral-content;
+}
+
+.postsHeader {
+    @apply w-full text-2xl font-bold;
+}
+
+.postsTable {
+    @apply w-full table;
+}
+
+.postsLink {
+    @apply link link-primary;
+}

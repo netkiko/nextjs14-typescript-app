@@ -1,0 +1,27 @@
+.userTodosDialog {
+    @apply modal modal-open w-full;
+}
+
+.userTodosModal {
+    @apply modal-box max-w-full flex-col;
+}
+
+.userTodosTitle {
+    @apply font-bold text-lg;
+}
+
+.userTodosSubTitle {
+    @apply font-semibold py-4 text-lg;
+}
+
+.userTodosModalAction {
+    @apply modal-action w-full;
+}
+
+.userTodosTable {
+    @apply w-full table table-zebra;
+}
+
+.userTodosBtnWrapper {
+    @apply w-full flex justify-end items-center mt-4;
+}

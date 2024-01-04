@@ -1,0 +1,27 @@
+.commentWrapper {
+    @apply w-full min-h-[calc(100vh-60px)] flex flex-col items-center justify-start px-8 py-8 bg-neutral;
+}
+
+.commentForm {
+    @apply card w-[60%] shadow-xl flex items-center justify-center flex-col gap-8 p-8 bg-neutral-content;
+}
+
+.commentItem {
+    @apply w-full grid grid-cols-[14%_86%] items-center gap-8;
+}
+
+.commentInput {
+    @apply input input-bordered input-primary w-full max-w-2xl;
+}
+
+.commentTextarea {
+    @apply textarea textarea-primary w-full max-w-2xl;
+}
+
+.commentLabel {
+    @apply font-semibold;
+}
+
+.commentValue {
+    @apply text-lg font-bold;
+}

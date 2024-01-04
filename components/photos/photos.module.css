@@ -1,0 +1,23 @@
+.photosWrapper {
+    @apply w-full min-h-[calc(100vh-60px)] flex flex-col items-center justify-start px-8 py-8 bg-neutral;
+}
+
+.photosContainer {
+    @apply card w-[96%] shadow-xl flex items-center justify-center flex-col gap-8 p-8 bg-neutral-content;
+}
+
+.photosHeader {
+    @apply w-full text-2xl font-bold;
+}
+
+.photosTable {
+    @apply w-full table;
+}
+
+.photosImage {
+    @apply flex items-center justify-center;
+}
+
+.photosLink {
+    @apply link link-primary;
+}

@@ -1,0 +1,29 @@
+.homeWrapper {
+    @apply w-full flex flex-col items-center justify-center;
+}
+
+.heroContainer {
+    @apply hero min-h-[calc(100vh-60px)];
+
+    background-image: url(/assets/images/hero_bg1.jpg);
+}
+
+.heroOverlay {
+    @apply hero-overlay bg-opacity-60;
+}
+
+.heroContent {
+    @apply hero-content text-center text-neutral-content;
+}
+
+.heroTitle {
+    @apply mb-5 text-5xl font-bold;
+}
+
+.heroSubTitle {
+    @apply mb-5 text-xl font-semibold;
+}
+
+.heroAction {
+    @apply btn btn-active btn-neutral;
+}
